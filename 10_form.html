@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .container {
+        /* background-color: red; */
+        width: 600px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 auto;
+        gap: 20px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        padding: 50px;
+        border-radius: 10px;
+        margin-top: 250px;
+    }
+
+    input {
+        width: 200px;
+        height: 20px;
+        border-radius: 08px;
+    }
+
+    select {
+        width: 200px;
+        height: 25px;
+        border-radius: 08px;
+    }
+
+    button{
+        padding: 10px;
+        background-color: rgb(72, 112, 243);
+        color: aliceblue;
+        border-radius: 10px;
+        margin: 0 250px;
+        font-size: 18px;
+        font-weight: 700;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="name">
+            <label for="">First Name</label> <input type="text" id="fname">
+            <label for="">Semester</label> <select name="" id="sem">
+                <option value="">First Semester</option>
+                <option value="">Second Semester</option>
+                <option value="">Third Semester</option>
+                <option value="">Fourth Semester</option>
+                <option value="">Fifth Semester</option>
+            </select>
+        </div>
+        <div class="academic">
+            <label for="">Last Name</label> <input type="text" id="lname">
+            
+
+            <label for="">Branch</label> <select name="" id="branch">
+                <option value="">CSE</option>
+                <option value="">ECE</option>
+                <option value="">EE</option>
+                <option value="">CE</option>
+            </select>
+        </div>
+        <button>Submit</button>
+    </div>
+</body>
+
+</html>
